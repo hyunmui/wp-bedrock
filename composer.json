@@ -48,7 +48,10 @@
     "roots/wordpress": "5.8",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "wpackagist-theme/astra": "3.6.7"
+    "wpackagist-theme/astra": "3.6.7",
+    "wpackagist-theme/colibri-wp": "^1.0",
+    "wpackagist-plugin/colibri-page-builder": "^1.0",
+    "wpackagist-plugin/wpsynchro": "1.6.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",

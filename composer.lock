@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80a03b92024b06eaa32c273e449fe476",
+    "content-hash": "7fa51d144e4293a8fb24337f1c3210c7",
     "packages": [
         {
             "name": "composer/installers",
@@ -1037,6 +1037,42 @@
             "time": "2021-01-20T15:23:13+00:00"
         },
         {
+            "name": "wpackagist-plugin/colibri-page-builder",
+            "version": "1.0.206",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/colibri-page-builder/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/colibri-page-builder.zip?timestamp=1626773809"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/colibri-page-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/wpsynchro",
+            "version": "1.6.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpsynchro/",
+                "reference": "tags/1.6.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpsynchro.1.6.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpsynchro/"
+        },
+        {
             "name": "wpackagist-theme/astra",
             "version": "3.6.7",
             "source": {
@@ -1053,6 +1089,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/astra/"
+        },
+        {
+            "name": "wpackagist-theme/colibri-wp",
+            "version": "1.0.86",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/colibri-wp/",
+                "reference": "1.0.86"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/colibri-wp.1.0.86.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/colibri-wp/"
         }
     ],
     "packages-dev": [
