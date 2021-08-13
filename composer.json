@@ -49,8 +49,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-theme/astra": "3.6.7",
-    "wpackagist-theme/colibri-wp": "^1.0",
-    "wpackagist-plugin/colibri-page-builder": "^1.0",
+    "wpackagist-theme/colibri-wp": "1.0.86",
+    "wpackagist-plugin/colibri-page-builder": "1.0.206",
     "wpackagist-plugin/wpsynchro": "1.6.4"
   },
   "require-dev": {
